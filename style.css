@@ -3,18 +3,24 @@ body{
     margin: 0;
 }
 h1{
-    font-size: 30px;
+    font-size: 50px;
+}
+h2{
+    font-size: 35px;
+}
+p{
+    color: dimgray;
 }
 .name-highlight{
     color: orange;
 }
-.top-width{
+.half-width{
     width: 40%;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
 }
-.top-width img{
+.half-width img{
     width: 100%;
 }
 .top-banner{
@@ -23,6 +29,7 @@ h1{
 }
 section{
     height: 500px;
+    padding-bottom: 100px;
 }
 .profile-button{
     text-decoration: none;
@@ -31,4 +38,9 @@ section{
     border-radius: 5px;
     color: white;
     font-weight: 700px;
+}
+.mid-banner{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
